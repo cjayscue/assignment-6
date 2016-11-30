@@ -19,6 +19,8 @@ Information Retrieval
   <h2>
     What is it?
   </h2>
+  <p>How does this show up?
+  </p>
 </section>
 ```
 
@@ -26,17 +28,22 @@ Information Retrieval
 Information retrieval is the science of practice of developing and evaluating systems that match information seekers with the information they seek.
 </aside>
 
-# Big Name in Information Retrieval
+# What do we Search for?
+Some Examples
+ > - Music
+ > - Text
+ > - Images
+ > - Audio
 
-```
-git add -v .
-git commit -a -m "I made a small change"
-git push
-```
+# What applications do we use to find what we are looking for?
+
+> - Web Search
+> - Desktop Search
+> - Peer-to-peer search
 
 <aside class="notes">
-Gerard Salton....
-<\aside>
+What applications do we use to find what we are looking for?  We can use web search engines such as Google, desktop search on our laptops, or peer-to-peer search, which simply means to ask another human being a question.
+</aside> 
 
 # Important
 
@@ -85,3 +92,6 @@ Have you heard of Google?
 <aside class="notes">
 how is this relevant to my life?
 </aside>
+
+
+
