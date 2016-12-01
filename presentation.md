@@ -2,48 +2,33 @@
 % Christiana Ayscue & Sanjana Krishnan
 % 28, November 2016
 
-# Information Retrieval  Models
-
-```
-pandoc -t revealjs --template=template-index.html -s --variable theme="black" --variable transition="slide" --variable revealjs-url="./" presentation.md -o presentation.html
-```
+# Information Retrieval Models
 
 <aside class="notes">
-Information Retrieval Models
+Hey guys!  My name is Christiana Ayscue.  And my name is Sanjana Krishnan.  And we are going to be telling you about something that we do multiple times a day.
 </aside>
 
-# What is information retrieval?
+# Search
+Search for **stuff**.
 
-Information Retrieval is part of our every day lives.
+ <aside class="notes">
+Search for stuff.
+</aside> 
 
-```
-<section id="my-slide" class="slide level1" data-audio-src="audio/1.0.ogg">
-  <h2>
-    What is it?
-  </h2>
-  <p>How does this show up?
-  </p>
-</section>
-```
-
-Match information seekers
-
-<aside class="notes">
-Information retrieval is the science of practice of developing and evaluating systems that match information seekers with the information they seek.
-this is part of your life every day.  
-</aside>
 
 # What do we Search for?
+
+<center><img src="/test/Data.jpg"  alt="data" border="2"></center>
+
 Some Examples
- > - Music
- > - Text
- > - Images
- > - Audio
+> - Music
+> - Text
+> - Images
+> - Audio
  
- <center>img src =""
  
  <aside class="notes">
-Some common examples of data that is searched by us on a regular basis are music, text, images, and audio.
+Some common examples of data that we search for all the time are music, text, images, and audio.
 </aside> 
 
 # What applications do we use to find what we are looking for?
@@ -53,21 +38,33 @@ Some common examples of data that is searched by us on a regular basis are music
 > - Peer-to-peer search
 
 <aside class="notes">
-What applications do we use to find what we are looking for?  We can use web search engines such as Google, desktop search on our laptops, or peer-to-peer search, which simply means to ask another human being a question.
+What applications do we use to find what we are looking for?  We can use web search engines such as Google, desktop search on our laptops, 
+or peer-to-peer search, which simply means to ask another human being a question.
 </aside> 
 
+
+#Goal
+
+pic of goal post
+
+<aside class="notes">
+The goal here is pretty simple: to match information seekers with the information they seek.
+It sounds like an easy process, but is it really?
+</aside>
 
 #Information Use
 
 diagram of information use
 
 <aside class="notes">
-People experience information needs when they percieve gaps in their knowledge.
+The first thing to think about, is that that people experience information needs when they percieve gaps in their knowledge.
 </aside>
 
 
-# Information Seeking
- How do we look for information?
+# Finding what we want
+
+static gif?
+
  
 <aside class="notes">
 As human beings, the way we search for information is not static.   
@@ -80,28 +77,148 @@ This represents how we progress during our searches...
 berry picking model pic
 
 <aside class="notes">
-We tend to search in the manner that this represented in this image. As we discover new or useful information during our search we adjust our query or the information we desire may evolve or change.
+Instead, we tend to search in the manner that this represented in this image. As we discover new or useful information during our search we 
+our query is going to evolve and shift.
 </aside>
 
 
-# Information Retrieval Models
+# Basics
+
+**Basics**
 
 <aside class="notes">
-There are many models that demonstrate how information is retrieved.  Three primary models are the Boolean, the Vector Space Model, and the Probalistic Model.
+In a nutshell, we've shared with you all the basics of search.  Now we are going to take things to another, slightly more technical level.
 </aside>
+
+# Information Retrieval
+
+**IR**
+
+<aside class="notes">
+A big piece of the search puzzle involves Information Retrieval.  What is this you may ask?  Well, according to SILS Professor Jaime Arguello, it is the science and practice 
+of
+</aside>
+
+# Developing/Evaluating
+
+Developing & Evaluating
+
+<aside class="notes">
+developing and evaluating systems that match information seekers with the info this seek.  In other words, IR is a means to find the info or data that you want.
+</aside>
+
+#IR Models
+
+IR Models
+
+<aside class="notes">
+In the world of IR, there are a variety of information retrieval models.  However, we are only going to focus in on three important ones today.
+</aside>
+
+#IR Models
+Those three are
+
+> - Boolean Model
+> - Vector Space Model
+> - Probalistic Model
+
+
+<aside class="notes">
+Those three are the Boolean Model, the Vector Space Model, and the Probalistic Model.
+</aside>
+
 
 #Boolean
 Exact Match
 
 <aside class="notes">
-The Boolean model is also known as an exact match.  In other words, the information retrieved is relevant or it is not.
+First, let's check out the Boolean Model. The Boolean model returns what is called an exact match. 
+Retrieval is therefore based on whether or not the documents contain the query terms.
 </aside>
 
 #Logical Operators
 
-> AND
-> OR
-> NOT
+> - AND
+> - OR
+> - NOT
+
+<aside class="notes">
+The logical operators AND, OR, and NOT are used when creating queries (aka searches) and information returned is either relevant or non-relevant.
+</aside>
+
+#Boolean PROs 
+happy face pic
+
+<aside class="notes">
+The advantages to this model are that users understand why a document was retrieved, users can control how specific the queries are, and it is easy and fast for the system to process.
+
+</aside>
+
+#Boolean CONs
+
+sad face pic
+
+<aside class="notes">
+On the flipside, the cons of this model are that users take full responsibility on query formulations, Boolean queries get very complicated if the information 
+needs are precise, and there is no relevance score to refer to.  For the unexperienced searcher, using a Boolean query may not be very helpful.
+</aside>
+
+# Vector Space Model
+vector space pic
+
+
+<aside class="notes">
+Our next model is the Vector space model.  This model assumes that the degree of matching between a query and retrieved documents can be used to rank-order documents, and
+this rank-ordering corresponds to how well a document satisfying a user’s information needs.
+</aside>
+
+#Vector Space Explained
+Best Match
+
+<aside class="notes">
+This is a "best match" model
+</aside>
+
+
+#PROs 
+happy face pic
+
+<aside class="notes">
+how is this relevant to my life?
+</aside>
+
+#CONs
+
+sad face pic
+
+<aside class="notes">
+how is this relevant to my life?
+</aside>
+
+
+#PROs 
+happy face pic
+
+<aside class="notes">
+how is this relevant to my life?
+</aside>
+
+#CONs
+
+sad face pic
+
+<aside class="notes">
+how is this relevant to my life?
+</aside>
+
+
+
+
+ 
+ 
+ 
+ 
+.
 
 
 
@@ -128,5 +245,5 @@ What does this mean for me?
 how is this relevant to my life?
 </aside>
 
-
+#Resources
 
