@@ -2,8 +2,6 @@
 % Christiana Ayscue & Sanjana Krishnan
 % 28, November 2016
 
-# Information Retrieval Models
-
 <aside class="notes">
 Hey guys!  My name is Christiana Ayscue.  And my name is Sanjana Krishnan.  And we are going to be telling you about something that we do multiple times a day.
 </aside>
@@ -21,6 +19,7 @@ Search for stuff.
 <center><img src="/test/Data.jpg"  alt="data" border="2"></center>
 
 Some Examples
+
 > - Music
 > - Text
 > - Images
@@ -168,23 +167,38 @@ vector space pic
 
 
 <aside class="notes">
-Our next model is the Vector space model.  This model assumes that the degree of matching between a query and retrieved documents can be used to rank-order documents, and
-this rank-ordering corresponds to how well a document satisfying a user’s information needs.
+Our next model is the Vector space model.  This model assumes that the degree of matching between a query and retrieved documents can be used to rank-order documents.  
+This rank-ordering corresponds to how well a document satisfying a user’s information needs.
 </aside>
 
 #Vector Space Explained
 Best Match
 
 <aside class="notes">
-This is a "best match" model
+The vector space model is considered a "best match" model.
 </aside>
 
+#Vector Sapce
+
+picture of vector space
+
+<aside class="notes">
+This is a bit technical, but given a query, the vector space model scores each document based on the cosine of the angle between the two vectors.
+</aside>
+
+
+#Term Weight
+<aside class="notes">
+With IR models, term weight plays an important role.  Assuming that some words are more representative than other words,
+if a term is more heavily weighted than it is a more important query term overall.
+</aside>
 
 #PROs 
 happy face pic
 
 <aside class="notes">
-how is this relevant to my life?
+Some positive points about the vector space model include that it is a simple model based on linear algebra, it allows ranking documents according to their possible relevance
+and it allows partial matching
 </aside>
 
 #CONs
@@ -192,58 +206,118 @@ how is this relevant to my life?
 sad face pic
 
 <aside class="notes">
-how is this relevant to my life?
+A couple of downsides of this IR model are that search keywords must precisely match document terms, and the
+order in which the terms appear in the document is lost in the vector space representation.
+</aside>
+
+#Final Model
+Probalistic Model
+
+<aside class="notes">
+Our third and final IR model is the Probablistic Model
+</aside>
+
+#Best Match
+
+<aside class="notes">
+Similar to the vector space model, the probalistic model is also known as a best match model.
+</aside>
+
+#Probablistic Model
+pic with bubbles
+
+<aside class="notes">
+Our third and final IR model is the Probablistic Model
 </aside>
 
 
-#PROs 
-happy face pic
+#Probabilistic Model
 
+mathy pic
+
+<aside class="notes">
+As explained by Wikipedia, probabilistic models treat the process of document retrieval as a probabilistic inference. 
+Similarities are computed as probabilities that a document is relevant for a given query. 
+</aside>
+
+#Ever wondered?
+
+> -How
+> -Google
+> -Works
+
+<aside class="notes">
+have you ever wondered how google actually works?
+</aside>
+
+
+#Page Rank Algorithm
+
+<aside class="notes">
+Google uses this probabilistic model and came up with their own PageRank algorithm.
+</aside>
+
+#Quote from Bruce Clay, Inc
+PageRank (PR) is a calculation, famously invented by Google founders Larry Page and Sergey Brin, 
+which evaluates the quality and quantity of links to a webpage to determine a relative score of that page’s importance and authority on a 0 to 10 scale.
+
+<aside class="notes">
+A writer for Bruce Clay, Inc, Chelsea Adams stated that "PageRank (PR) is a calculation, famously invented by Google founders Larry Page and Sergey Brin, 
+which evaluates the quality and quantity of links to a webpage to determine a relative score of that page’s importance and authority on a 0 to 10 scale.""
+</aside>
+
+#Video
+
+<aside class="notes">
+This brief video will explain the details of how Google operates.
+</aside>
+
+#Video
+llkjlkj
+
+
+#Google is kind of 
+popular
+
+<aside class="notes">
+Google has done very well for themselves.  For many of us, Google is our go-to search engine.  For them to be as successful as they are
+the had to have done some things right.
+</aside>
+
+#Room for
+improvement
+
+<aside class="notes">
+But there is always room for improvement, even if you are Google and presume to have most, if not all, of the answers.
+</aside>
+
+#Other 
+options
+
+<aside class="notes">
+More importantly, Google is not the only option for a search engine.  
+</aside>
+
+#Cool Ones
+
+pics
+
+<aside class="notes">
+There are actually some really cool ones out there such as  Dogpile that pulls in and ‘curates’ results from various different engines including Google, Yandex and Yahoo, 
+but removes all the ads, DuckDuckGo which doesn’t retain its users’ data, so it won’t track you or manipulate results based on your behaviour, or Giphy 
+that communicates entirely in GIFs
+</aside>
+
+
+#Wrap-up/relevance to my life
 <aside class="notes">
 how is this relevant to my life?
 </aside>
 
-#CONs
 
-sad face pic
+#Source/Resources
 
-<aside class="notes">
-how is this relevant to my life?
-</aside>
-
-
-
-
- 
- 
- 
- 
-.
-
-
-
-# Google
-
-<aside class="notes">
-Have you heard of Google?
-</aside>
-
-# Googles algorithm?
-
-<aside class="notes">
-Have you heard of Google?
-</aside>
-
-
-
-# takeaways
-
-
-What does this mean for me?
-
-<aside class="notes">
-how is this relevant to my life?
-</aside>
-
-#Resources
-
+Ron
+Wikipedia
+http://www.inf.ed.ac.uk/teaching/courses/tts/pdf/vector.pdf
+https://searchenginewatch.com/2016/02/25/say-goodbye-to-google-14-alternative-search-engines/

@@ -70,35 +70,33 @@
 <!--END: REMOVE OR COMMENT THIS SECTION FOR YOUR FINAL PRESENTATION-->
 			
 
-<section id="information-retrieval-models" class="slide level1">
-<h1>Information Retrieval Models</h1>
-<pre><code>pandoc -t revealjs --template=template-index.html -s --variable theme=&quot;black&quot; --variable transition=&quot;slide&quot; --variable revealjs-url=&quot;./&quot; presentation.md -o presentation.html</code></pre>
+<section class="slide level1">
+
 <aside class="notes">
-Information Retrieval Models
+Hey guys! My name is Christiana Ayscue. And my name is Sanjana Krishnan. And we are going to be telling you about something that we do multiple times a day.
 </aside>
 </section>
-<section id="what-is-information-retrieval" class="slide level1">
-<h1>What is information retrieval?</h1>
-<p>Information Retrieval is part of our every day lives.</p>
-<pre><code>&lt;section id=&quot;my-slide&quot; class=&quot;slide level1&quot; data-audio-src=&quot;audio/1.0.ogg&quot;&gt;
-  &lt;h2&gt;
-    What is it?
-  &lt;/h2&gt;
-  &lt;p&gt;How does this show up?
-  &lt;/p&gt;
-&lt;/section&gt;</code></pre>
-<p>Match information seekers</p>
+<section id="search" class="slide level1">
+<h1>Search</h1>
+<p>Search for <strong>stuff</strong>.</p>
 <aside class="notes">
-Information retrieval is the science of practice of developing and evaluating systems that match information seekers with the information they seek. this is part of your life every day.
+Search for stuff.
 </aside>
 </section>
 <section id="what-do-we-search-for" class="slide level1">
 <h1>What do we Search for?</h1>
-<p>Some Examples &gt; - Music &gt; - Text &gt; - Images &gt; - Audio</p>
 <center>
-<p>img src =&quot;&quot;</p>
+<img src="/test/Data.jpg"  alt="data" border="2">
+</center>
+<p>Some Examples</p>
+<ul>
+<li class="fragment">Music</li>
+<li class="fragment">Text</li>
+<li class="fragment">Images</li>
+<li class="fragment">Audio</li>
+</ul>
 <aside class="notes">
-Some common examples of data that is searched by us on a regular basis are music, text, images, and audio.
+Some common examples of data that we search for all the time are music, text, images, and audio.
 </aside>
 </section>
 <section id="what-applications-do-we-use-to-find-what-we-are-looking-for" class="slide level1">
@@ -112,16 +110,23 @@ Some common examples of data that is searched by us on a regular basis are music
 What applications do we use to find what we are looking for? We can use web search engines such as Google, desktop search on our laptops, or peer-to-peer search, which simply means to ask another human being a question.
 </aside>
 </section>
+<section id="goal" class="slide level1">
+<h1>Goal</h1>
+<p>pic of goal post</p>
+<aside class="notes">
+The goal here is pretty simple: to match information seekers with the information they seek. It sounds like an easy process, but is it really?
+</aside>
+</section>
 <section id="information-use" class="slide level1">
 <h1>Information Use</h1>
 <p>diagram of information use</p>
 <aside class="notes">
-People experience information needs when they percieve gaps in their knowledge.
+The first thing to think about, is that that people experience information needs when they percieve gaps in their knowledge.
 </aside>
 </section>
-<section id="information-seeking" class="slide level1">
-<h1>Information Seeking</h1>
-<p>How do we look for information?</p>
+<section id="finding-what-we-want" class="slide level1">
+<h1>Finding what we want</h1>
+<p>static gif?</p>
 <aside class="notes">
 As human beings, the way we search for information is not static.
 </aside>
@@ -131,46 +136,219 @@ As human beings, the way we search for information is not static.
 <p>This represents how we progress during our searches...</p>
 <p>berry picking model pic</p>
 <aside class="notes">
-We tend to search in the manner that this represented in this image. As we discover new or useful information during our search we adjust our query or the information we desire may evolve or change.
+Instead, we tend to search in the manner that this represented in this image. As we discover new or useful information during our search we our query is going to evolve and shift.
 </aside>
 </section>
-<section id="information-retrieval-models-1" class="slide level1">
-<h1>Information Retrieval Models</h1>
+<section id="basics" class="slide level1">
+<h1>Basics</h1>
+<p><strong>Basics</strong></p>
 <aside class="notes">
-There are many models that demonstrate how information is retrieved. Three primary models are the Boolean, the Vector Space Model, and the Probalistic Model.
+In a nutshell, we've shared with you all the basics of search. Now we are going to take things to another, slightly more technical level.
+</aside>
+</section>
+<section id="information-retrieval" class="slide level1">
+<h1>Information Retrieval</h1>
+<p><strong>IR</strong></p>
+<aside class="notes">
+A big piece of the search puzzle involves Information Retrieval. What is this you may ask? Well, according to SILS Professor Jaime Arguello, it is the science and practice of
+</aside>
+</section>
+<section id="developingevaluating" class="slide level1">
+<h1>Developing/Evaluating</h1>
+<p>Developing &amp; Evaluating</p>
+<aside class="notes">
+developing and evaluating systems that match information seekers with the info this seek. In other words, IR is a means to find the info or data that you want.
+</aside>
+</section>
+<section id="ir-models" class="slide level1">
+<h1>IR Models</h1>
+<p>IR Models</p>
+<aside class="notes">
+In the world of IR, there are a variety of information retrieval models. However, we are only going to focus in on three important ones today.
+</aside>
+</section>
+<section id="ir-models-1" class="slide level1">
+<h1>IR Models</h1>
+<p>Those three are</p>
+<ul>
+<li class="fragment">Boolean Model</li>
+<li class="fragment">Vector Space Model</li>
+<li class="fragment">Probalistic Model</li>
+</ul>
+<aside class="notes">
+Those three are the Boolean Model, the Vector Space Model, and the Probalistic Model.
 </aside>
 </section>
 <section id="boolean" class="slide level1">
 <h1>Boolean</h1>
 <p>Exact Match</p>
 <aside class="notes">
-The Boolean model is also known as an exact match. In other words, the information retrieved is relevant or it is not.
+First, let's check out the Boolean Model. The Boolean model returns what is called an exact match. Retrieval is therefore based on whether or not the documents contain the query terms.
 </aside>
 </section>
 <section id="logical-operators" class="slide level1">
 <h1>Logical Operators</h1>
+<ul>
+<li class="fragment">AND</li>
+<li class="fragment">OR</li>
+<li class="fragment">NOT</li>
+</ul>
+<aside class="notes">
+The logical operators AND, OR, and NOT are used when creating queries (aka searches) and information returned is either relevant or non-relevant.
+</aside>
+</section>
+<section id="boolean-pros" class="slide level1">
+<h1>Boolean PROs</h1>
+<p>happy face pic</p>
+<aside class="notes">
+<p>The advantages to this model are that users understand why a document was retrieved, users can control how specific the queries are, and it is easy and fast for the system to process.</p>
+</aside>
+</section>
+<section id="boolean-cons" class="slide level1">
+<h1>Boolean CONs</h1>
+<p>sad face pic</p>
+<aside class="notes">
+On the flipside, the cons of this model are that users take full responsibility on query formulations, Boolean queries get very complicated if the information needs are precise, and there is no relevance score to refer to. For the unexperienced searcher, using a Boolean query may not be very helpful.
+</aside>
+</section>
+<section id="vector-space-model" class="slide level1">
+<h1>Vector Space Model</h1>
+<p>vector space pic</p>
+<aside class="notes">
+Our next model is the Vector space model. This model assumes that the degree of matching between a query and retrieved documents can be used to rank-order documents.<br />
+This rank-ordering corresponds to how well a document satisfying a user’s information needs.
+</aside>
+</section>
+<section id="vector-space-explained" class="slide level1">
+<h1>Vector Space Explained</h1>
+<p>Best Match</p>
+<aside class="notes">
+The vector space model is considered a &quot;best match&quot; model.
+</aside>
+</section>
+<section id="vector-sapce" class="slide level1">
+<h1>Vector Sapce</h1>
+<p>picture of vector space</p>
+<aside class="notes">
+This is a bit technical, but given a query, the vector space model scores each document based on the cosine of the angle between the two vectors.
+</aside>
+</section>
+<section id="term-weight" class="slide level1">
+<h1>Term Weight</h1>
+<aside class="notes">
+With IR models, term weight plays an important role. Assuming that some words are more representative than other words, if a term is more heavily weighted than it is a more important query term overall.
+</aside>
+</section>
+<section id="pros" class="slide level1">
+<h1>PROs</h1>
+<p>happy face pic</p>
+<aside class="notes">
+Some positive points about the vector space model include that it is a simple model based on linear algebra, it allows ranking documents according to their possible relevance and it allows partial matching
+</aside>
+</section>
+<section id="cons" class="slide level1">
+<h1>CONs</h1>
+<p>sad face pic</p>
+<aside class="notes">
+A couple of downsides of this IR model are that search keywords must precisely match document terms, and the order in which the terms appear in the document is lost in the vector space representation.
+</aside>
+</section>
+<section id="final-model" class="slide level1">
+<h1>Final Model</h1>
+<p>Probalistic Model</p>
+<aside class="notes">
+Our third and final IR model is the Probablistic Model
+</aside>
+</section>
+<section id="best-match" class="slide level1">
+<h1>Best Match</h1>
+<aside class="notes">
+Similar to the vector space model, the probalistic model is also known as a best match model.
+</aside>
+</section>
+<section id="probablistic-model" class="slide level1">
+<h1>Probablistic Model</h1>
+<p>pic with bubbles</p>
+<aside class="notes">
+Our third and final IR model is the Probablistic Model
+</aside>
+</section>
+<section id="probabilistic-model" class="slide level1">
+<h1>Probabilistic Model</h1>
+<p>mathy pic</p>
+<aside class="notes">
+As explained by Wikipedia, probabilistic models treat the process of document retrieval as a probabilistic inference. Similarities are computed as probabilities that a document is relevant for a given query.
+</aside>
+</section>
+<section id="ever-wondered" class="slide level1">
+<h1>Ever wondered?</h1>
 <blockquote>
-<p>AND OR NOT</p>
+<p>-How -Google -Works</p>
 </blockquote>
-</section>
-<section id="google" class="slide level1">
-<h1>Google</h1>
 <aside class="notes">
-Have you heard of Google?
+have you ever wondered how google actually works?
 </aside>
 </section>
-<section id="googles-algorithm" class="slide level1">
-<h1>Googles algorithm?</h1>
+<section id="page-rank-algorithm" class="slide level1">
+<h1>Page Rank Algorithm</h1>
 <aside class="notes">
-Have you heard of Google?
+Google uses this probabilistic model and came up with their own PageRank algorithm.
 </aside>
 </section>
-<section id="takeaways" class="slide level1">
-<h1>takeaways</h1>
-<p>What does this mean for me?</p>
+<section id="quote-from-bruce-clay-inc" class="slide level1">
+<h1>Quote from Bruce Clay, Inc</h1>
+<p>PageRank (PR) is a calculation, famously invented by Google founders Larry Page and Sergey Brin, which evaluates the quality and quantity of links to a webpage to determine a relative score of that page’s importance and authority on a 0 to 10 scale.</p>
+<aside class="notes">
+A writer for Bruce Clay, Inc, Chelsea Adams stated that &quot;PageRank (PR) is a calculation, famously invented by Google founders Larry Page and Sergey Brin, which evaluates the quality and quantity of links to a webpage to determine a relative score of that page’s importance and authority on a 0 to 10 scale.&quot;&quot;
+</aside>
+</section>
+<section id="video" class="slide level1">
+<h1>Video</h1>
+<aside class="notes">
+This brief video will explain the details of how Google operates.
+</aside>
+</section>
+<section id="video-1" class="slide level1">
+<h1>Video</h1>
+<p>llkjlkj</p>
+</section>
+<section id="google-is-kind-of" class="slide level1">
+<h1>Google is kind of</h1>
+<p>popular</p>
+<aside class="notes">
+Google has done very well for themselves. For many of us, Google is our go-to search engine. For them to be as successful as they are the had to have done some things right.
+</aside>
+</section>
+<section id="room-for" class="slide level1">
+<h1>Room for</h1>
+<p>improvement</p>
+<aside class="notes">
+But there is always room for improvement, even if you are Google and presume to have most, if not all, of the answers.
+</aside>
+</section>
+<section id="other" class="slide level1">
+<h1>Other</h1>
+<p>options</p>
+<aside class="notes">
+More importantly, Google is not the only option for a search engine.
+</aside>
+</section>
+<section id="cool-ones" class="slide level1">
+<h1>Cool Ones</h1>
+<p>pics</p>
+<aside class="notes">
+There are actually some really cool ones out there such as Dogpile that pulls in and ‘curates’ results from various different engines including Google, Yandex and Yahoo, but removes all the ads, DuckDuckGo which doesn’t retain its users’ data, so it won’t track you or manipulate results based on your behaviour, or Giphy that communicates entirely in GIFs
+</aside>
+</section>
+<section id="wrap-uprelevance-to-my-life" class="slide level1">
+<h1>Wrap-up/relevance to my life</h1>
 <aside class="notes">
 how is this relevant to my life?
 </aside>
+</section>
+<section id="sourceresources" class="slide level1">
+<h1>Source/Resources</h1>
+<p>Ron Wikipedia http://www.inf.ed.ac.uk/teaching/courses/tts/pdf/vector.pdf https://searchenginewatch.com/2016/02/25/say-goodbye-to-google-14-alternative-search-engines/</p>
 </section>
 
 			</div>
