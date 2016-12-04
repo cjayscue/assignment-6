@@ -326,7 +326,7 @@ how is this relevant to my life?
 
 
 #Source/Resources
-fjfjf
+
 Ron
 Wikipedia
 http://www.inf.ed.ac.uk/teaching/courses/tts/pdf/vector.pdf
