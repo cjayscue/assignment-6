@@ -45,6 +45,7 @@ or peer-to-peer search, which simply means to ask another human being a question
 #Goal
 
 pic of goal post
+<img src="http://media.istockphoto.com/photos/american-football-field-goal-post-picture-id540869020?k=6&m=540869020&s=170667a&w=0&h=AXF3c5asIKCT2zfc2zHZ83QMg7iCFggJk6KgZ5TW0so=">
 
 <aside class="notes">
 The goal here is pretty simple: to match information seekers with the information they seek.
@@ -74,6 +75,7 @@ As human beings, the way we search for information is not static.
 This represents how we progress during our searches...
 
 berry picking model pic
+<img src="https://the8bitlibrarian.files.wordpress.com/2015/02/9077a-berrypicking2bevolving2bsearch.jpg">
 
 <aside class="notes">
 Instead, we tend to search in the manner that this represented in this image. As we discover new or useful information during our search we 
@@ -147,6 +149,7 @@ The logical operators AND, OR, and NOT are used when creating queries (aka searc
 
 #Boolean PROs 
 happy face pic
+<img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/smiling-face-with-smiling-eyes.png">
 
 <aside class="notes">
 The advantages to this model are that users understand why a document was retrieved, users can control how specific the queries are, and it is easy and fast for the system to process.
@@ -156,6 +159,7 @@ The advantages to this model are that users understand why a document was retrie
 #Boolean CONs
 
 sad face pic
+<img src="http://www.clipartkid.com/images/124/crying-emoji-face-KS8xJS-clipart.png">
 
 <aside class="notes">
 On the flipside, the cons of this model are that users take full responsibility on query formulations, Boolean queries get very complicated if the information 
@@ -164,6 +168,7 @@ needs are precise, and there is no relevance score to refer to.  For the unexper
 
 # Vector Space Model
 vector space pic
+<img src="http://blog.christianperone.com/wp-content/uploads/2013/09/vector_space.png">
 
 
 <aside class="notes">
@@ -178,10 +183,10 @@ Best Match
 The vector space model is considered a "best match" model.
 </aside>
 
-#Vector Sapce
+#Vector Space
 
 picture of vector space
-
+<img src="http://fox.cs.vt.edu/talks/1995/KY95/RR-vs-cos.GIF">
 <aside class="notes">
 This is a bit technical, but given a query, the vector space model scores each document based on the cosine of the angle between the two vectors.
 </aside>
@@ -195,6 +200,7 @@ if a term is more heavily weighted than it is a more important query term overal
 
 #PROs 
 happy face pic
+<img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/smiling-face-with-smiling-eyes.png">
 
 <aside class="notes">
 Some positive points about the vector space model include that it is a simple model based on linear algebra, it allows ranking documents according to their possible relevance
@@ -204,6 +210,7 @@ and it allows partial matching
 #CONs
 
 sad face pic
+<img src="http://www.clipartkid.com/images/124/crying-emoji-face-KS8xJS-clipart.png">
 
 <aside class="notes">
 A couple of downsides of this IR model are that search keywords must precisely match document terms, and the
@@ -225,6 +232,7 @@ Similar to the vector space model, the probalistic model is also known as a best
 
 #Probablistic Model
 pic with bubbles
+<img src="https://cdn.vectorstock.com/i/composite/45,40/blue-soap-bubbles-vector-1094540.jpg">
 
 <aside class="notes">
 Our third and final IR model is the Probablistic Model
@@ -234,6 +242,7 @@ Our third and final IR model is the Probablistic Model
 #Probabilistic Model
 
 mathy pic
+<img src="https://pi.tedcdn.com/r/pf.tedcdn.com/images/playlists/hated_math_1200x627.jpg?c=1050%2C550&w=1050">
 
 <aside class="notes">
 As explained by Wikipedia, probabilistic models treat the process of document retrieval as a probabilistic inference. 
@@ -301,6 +310,7 @@ More importantly, Google is not the only option for a search engine.
 #Cool Ones
 
 pics
+<img src="http://www.disneyclips.com/imagesnewb/images/clipdonstamp.gif">
 
 <aside class="notes">
 There are actually some really cool ones out there such as  Dogpile that pulls in and ‘curates’ results from various different engines including Google, Yandex and Yahoo, 
