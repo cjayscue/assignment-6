@@ -9,14 +9,14 @@ Hey guys!  My name is Christiana Ayscue.  And my name is Sanjana Krishnan.  And 
 # Search
 Search for **stuff**.
 
- <aside class="notes">
+<aside class="notes">
 Search for stuff.
 </aside> 
 
 
 # What do we Search for?
 
-<center><img src="/test/Data.jpg"  alt="data" border="2"></center>
+<center><img src="/assignment-6/Data.jpg"  alt="data" border="2"></center>
 
 Some Examples
 
@@ -45,7 +45,7 @@ or peer-to-peer search, which simply means to ask another human being a question
 #Goal
 
 pic of goal post
-<img src="http://media.istockphoto.com/photos/american-football-field-goal-post-picture-id540869020?k=6&m=540869020&s=170667a&w=0&h=AXF3c5asIKCT2zfc2zHZ83QMg7iCFggJk6KgZ5TW0so=">
+<img src="http://img.aws.livestrongcdn.com/ls-article-image-400/cme/cme_public_images/www_livestrong_com/photos.demandstudios.com/getty/article/117/203/78457028_XS.jpg">
 
 <aside class="notes">
 The goal here is pretty simple: to match information seekers with the information they seek.
@@ -85,15 +85,11 @@ our query is going to evolve and shift.
 
 # Basics
 
-**Basics**
-
 <aside class="notes">
 In a nutshell, we've shared with you all the basics of search.  Now we are going to take things to another, slightly more technical level.
 </aside>
 
 # Information Retrieval
-
-**IR**
 
 <aside class="notes">
 A big piece of the search puzzle involves Information Retrieval.  What is this you may ask?  Well, according to SILS Professor Jaime Arguello, it is the science and practice 
@@ -102,15 +98,12 @@ of
 
 # Developing/Evaluating
 
-Developing & Evaluating
-
 <aside class="notes">
 developing and evaluating systems that match information seekers with the info this seek.  In other words, IR is a means to find the info or data that you want.
 </aside>
 
 #IR Models
 
-IR Models
 
 <aside class="notes">
 In the world of IR, there are a variety of information retrieval models.  However, we are only going to focus in on three important ones today.
@@ -148,7 +141,6 @@ The logical operators AND, OR, and NOT are used when creating queries (aka searc
 </aside>
 
 #Boolean PROs 
-happy face pic
 <img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/smiling-face-with-smiling-eyes.png">
 
 <aside class="notes">
@@ -158,7 +150,6 @@ The advantages to this model are that users understand why a document was retrie
 
 #Boolean CONs
 
-sad face pic
 <img src="http://www.clipartkid.com/images/124/crying-emoji-face-KS8xJS-clipart.png">
 
 <aside class="notes">
@@ -167,7 +158,7 @@ needs are precise, and there is no relevance score to refer to.  For the unexper
 </aside>
 
 # Vector Space Model
-vector space pic
+
 <img src="http://blog.christianperone.com/wp-content/uploads/2013/09/vector_space.png">
 
 
@@ -185,7 +176,7 @@ The vector space model is considered a "best match" model.
 
 #Vector Space
 
-picture of vector space
+
 <img src="http://fox.cs.vt.edu/talks/1995/KY95/RR-vs-cos.GIF">
 <aside class="notes">
 This is a bit technical, but given a query, the vector space model scores each document based on the cosine of the angle between the two vectors.
@@ -199,7 +190,7 @@ if a term is more heavily weighted than it is a more important query term overal
 </aside>
 
 #PROs 
-happy face pic
+
 <img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/smiling-face-with-smiling-eyes.png">
 
 <aside class="notes">
@@ -209,7 +200,6 @@ and it allows partial matching
 
 #CONs
 
-sad face pic
 <img src="http://www.clipartkid.com/images/124/crying-emoji-face-KS8xJS-clipart.png">
 
 <aside class="notes">
@@ -225,19 +215,12 @@ Our third and final IR model is the Probablistic Model
 </aside>
 
 #Best Match
+pic with bubbles
+<img src="https://www.seo-suedwest.de/bilder/pagerank-schema.jpg">
 
 <aside class="notes">
 Similar to the vector space model, the probalistic model is also known as a best match model.
 </aside>
-
-#Probablistic Model
-pic with bubbles
-<img src="https://cdn.vectorstock.com/i/composite/45,40/blue-soap-bubbles-vector-1094540.jpg">
-
-<aside class="notes">
-Our third and final IR model is the Probablistic Model
-</aside>
-
 
 #Probabilistic Model
 
@@ -251,9 +234,9 @@ Similarities are computed as probabilities that a document is relevant for a giv
 
 #Ever wondered?
 
-> -How
-> -Google
-> -Works
+> - How
+> - Google
+> - Works
 
 <aside class="notes">
 have you ever wondered how google actually works?
@@ -282,11 +265,11 @@ This brief video will explain the details of how Google operates.
 </aside>
 
 #Video
-llkjlkj
+
 
 
 #Google is kind of 
-popular
+**popular**
 
 <aside class="notes">
 Google has done very well for themselves.  For many of us, Google is our go-to search engine.  For them to be as successful as they are
@@ -294,7 +277,7 @@ the had to have done some things right.
 </aside>
 
 #Room for
-improvement
+**improvement**
 
 <aside class="notes">
 But there is always room for improvement, even if you are Google and presume to have most, if not all, of the answers.
@@ -309,7 +292,6 @@ More importantly, Google is not the only option for a search engine.
 
 #Cool Ones
 
-pics
 <img src="http://www.disneyclips.com/imagesnewb/images/clipdonstamp.gif">
 
 <aside class="notes">
@@ -340,10 +322,10 @@ more relevant and accurate results.
 For anyone that is interested in learning a little bit more, check out these links:
 </aside>
 
-<a href= "https://ils.unc.edu/courses/2016_fall/inls201_001/">Foundations of Information Science</a>
-<a href= "https://en.wikipedia.org/wiki/Information_retrieval">Information Retrieval</a>
-<a href="http://www.inf.ed.ac.uk/teaching/courses/tts/pdf/vector.pdf" >More on Vectors</a>
-<a href="https://searchenginewatch.com/2016/02/25/say-goodbye-to-google-14-alternative-search-engines/">Say Goodbye to Google</a>
+* <a href= "https://ils.unc.edu/courses/2016_fall/inls201_001/">Foundations of Information Science</a>
+* <a href= "https://en.wikipedia.org/wiki/Information_retrieval">Information Retrieval</a>
+* <a href="http://www.inf.ed.ac.uk/teaching/courses/tts/pdf/vector.pdf" >More on Vectors</a>
+* <a href="https://searchenginewatch.com/2016/02/25/say-goodbye-to-google-14-alternative-search-engines/">Say Goodbye to Google</a>
 
 
 #Thank you
