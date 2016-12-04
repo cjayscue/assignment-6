@@ -2,13 +2,16 @@
 % Christiana Ayscue & Sanjana Krishnan
 % 28, November 2016
 
+#Hey There!
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Round_hay_bale_at_dawn02.jpg">
+
 <aside class="notes">
 Hey guys!  My name is Christiana Ayscue.  And my name is Sanjana Krishnan.  And we are going to be telling you about something that we do multiple times a day.
 </aside>
 
 # Search
-Search for **stuff**.
-
+<img src="https://ladywithatruck.files.wordpress.com/2015/05/stuff.jpg">
 <aside class="notes">
 Search for stuff.
 </aside> 
@@ -16,15 +19,13 @@ Search for stuff.
 
 # What do we Search for?
 
-<center><img src="/assignment-6/Data.jpg"  alt="data" border="2"></center>
-
 Some Examples
 
 > - Music
 > - Text
 > - Images
 > - Audio
- 
+
  
  <aside class="notes">
 Some common examples of data that we search for all the time are music, text, images, and audio.
@@ -44,7 +45,6 @@ or peer-to-peer search, which simply means to ask another human being a question
 
 #Goal
 
-pic of goal post
 <img src="http://img.aws.livestrongcdn.com/ls-article-image-400/cme/cme_public_images/www_livestrong_com/photos.demandstudios.com/getty/article/117/203/78457028_XS.jpg">
 
 <aside class="notes">
@@ -54,7 +54,7 @@ It sounds like an easy process, but is it really?
 
 #Information Use
 
-diagram of information use
+<img src="http://infoseeking.org/img/intent2.jpg">
 
 <aside class="notes">
 The first thing to think about, is that that people experience information needs when they percieve gaps in their knowledge.
@@ -63,8 +63,8 @@ The first thing to think about, is that that people experience information needs
 
 # Finding what we want
 
-static gif?
 
+<img src ="https://media.giphy.com/media/xaMg6NGwH2fFS/giphy.gif">
  
 <aside class="notes">
 As human beings, the way we search for information is not static.   
@@ -74,8 +74,7 @@ As human beings, the way we search for information is not static.
 
 This represents how we progress during our searches...
 
-berry picking model pic
-<img src="https://the8bitlibrarian.files.wordpress.com/2015/02/9077a-berrypicking2bevolving2bsearch.jpg">
+<img src="http://searchuserinterfaces.com/book/images/berrypicking.png">
 
 <aside class="notes">
 Instead, we tend to search in the manner that this represented in this image. As we discover new or useful information during our search we 
@@ -96,7 +95,8 @@ A big piece of the search puzzle involves Information Retrieval.  What is this y
 of
 </aside>
 
-# Developing/Evaluating
+# D&E
+Developing & Evalutating
 
 <aside class="notes">
 developing and evaluating systems that match information seekers with the info this seek.  In other words, IR is a means to find the info or data that you want.
@@ -110,7 +110,7 @@ In the world of IR, there are a variety of information retrieval models.  Howeve
 </aside>
 
 #IR Models
-Those three are
+Those 3 are
 
 > - Boolean Model
 > - Vector Space Model
@@ -168,7 +168,7 @@ This rank-ordering corresponds to how well a document satisfying a user’s info
 </aside>
 
 #Vector Space Explained
-Best Match
+<img src="http://www.visitbawbaw.com.au/uploads/best-match-recruitment-2.jpg?d=201408140836">
 
 <aside class="notes">
 The vector space model is considered a "best match" model.
@@ -215,8 +215,7 @@ Our third and final IR model is the Probablistic Model
 </aside>
 
 #Best Match
-pic with bubbles
-<img src="https://www.seo-suedwest.de/bilder/pagerank-schema.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Pagerank_copia.jpg">
 
 <aside class="notes">
 Similar to the vector space model, the probalistic model is also known as a best match model.
@@ -224,8 +223,7 @@ Similar to the vector space model, the probalistic model is also known as a best
 
 #Probabilistic Model
 
-mathy pic
-<img src="https://pi.tedcdn.com/r/pf.tedcdn.com/images/playlists/hated_math_1200x627.jpg?c=1050%2C550&w=1050">
+<img src="https://pi.tedcdn.com/r/pf.tedcdn.com/images/playlists/hated_math_1200x627.jpg">
 
 <aside class="notes">
 As explained by Wikipedia, probabilistic models treat the process of document retrieval as a probabilistic inference. 
@@ -258,7 +256,7 @@ A writer for Bruce Clay, Inc, Chelsea Adams stated that "PageRank (PR) is a calc
 which evaluates the quality and quantity of links to a webpage to determine a relative score of that page’s importance and authority on a 0 to 10 scale.""
 </aside>
 
-#Video
+#Yay for YouTube
 
 <aside class="notes">
 This brief video will explain the details of how Google operates.
@@ -329,6 +327,8 @@ For anyone that is interested in learning a little bit more, check out these lin
 
 
 #Thank you
+
+<img src="https://m.popkey.co/04a13b/AVrJJ.gif">
 <aside class="notes">
 Thank you for listening, guys!
 </aside>
